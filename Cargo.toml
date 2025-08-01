@@ -59,12 +59,12 @@ serde = { version = "1.0.157", features = ["derive"] }
 
 [dev-dependencies]
 serde_yaml = "0.8"
-tera = { version = "1.19", default-features = false }
-handlebars = "4.3"
-serde_derive = "1.0"
-serde_json = "1.0"
-regex = "1.9"
-criterion = "0.5"
+tera = { version = "1.19.1", default-features = false }
+handlebars = "4.5.0"
+serde_derive = "1.0.200"
+serde_json = "1.0.116"
+regex = "1.10.4"
+criterion = "0.5.1"
 snapbox = "0.4.12"
 
 [[bench]]
