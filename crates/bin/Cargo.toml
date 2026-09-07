@@ -21,6 +21,6 @@ rustdoc-args = ["--cfg", "docsrs"]
 liquid = { version = "^0.26.4", path = "../../" }
 serde = { version = "1.0.157", features = ["derive"] }
 clap = { version = "4.3", features = ["derive"] }
-serde_yaml = "0.8"
+serde_yaml = "0.9"
 serde_json = "1.0"
 derive_more = "0.99.2"
